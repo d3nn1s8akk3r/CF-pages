@@ -1,0 +1,2 @@
+# CF-pages
+Cloudflare
