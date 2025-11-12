@@ -1,0 +1,12 @@
+name = "cors-proxy"
+main = "src/index.js"
+compatibility_date = "2025-11-12"
+workers_dev = true
+
+analytics_engine_datasets = [
+  { binding = "CORS_LOGS", dataset = "cors_proxy_events" }
+]
+
+kv_namespaces = [
+  { binding = "RATE_LIMITS", id = "your_kv_id_here" }
+]
