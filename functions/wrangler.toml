@@ -8,5 +8,6 @@ analytics_engine_datasets = [
 ]
 
 kv_namespaces = [
-  { binding = "RATE_LIMITS", id = "your_kv_id_here" }
+  { RATE_LIMITS = "RATE_LIMITS", id = "your_kv_id_here" }
 ]
+
